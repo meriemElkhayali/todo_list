@@ -1,0 +1,264 @@
+body{
+    background-image: url("./bg1.jpg");
+    background-size:1300px 900px ;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bgg{
+background-color: #ccb3b3a8;
+min-height:400px;
+width: 1225px;
+}
+*{
+margin-right:60px;
+}
+header{
+background-color: #d30000;
+width: 100%;
+text-align:justify;
+height: 40px;
+padding-top: 12px;
+color: white;
+position: fixed;
+word-spacing: normal;
+}
+input[type="button"]{
+    background-color: #d30000;
+    border-radius: 4px;
+    border-color: #d30000;
+    margin-top: 6px;
+    color: white;
+    height: 30px;
+    margin-left: 0px;
+}
+li{
+    list-style: none;
+}
+.nv{
+    background-color: rgba(75, 75, 75, 0);
+    border-color:rgba(75, 75, 75, 0) ;
+    color: rgb(200, 200, 200);
+}
+.nv1{
+    background-color: rgba(75, 75, 75, 0);
+    border-color:rgba(75, 75, 75, 0) ;
+    
+    color: white;
+text-decoration-line: line-through;
+}
+.done{
+    background-color:#3b3b3b;
+    border-radius: 100px;
+    border-color:  #3b3b3b;
+    margin-top: 6px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 4px;
+    padding: 0px;
+}
+.normal{
+background-color:  #ffffff00;
+width: 100%;
+height: 40px;
+border-radius: 2px;
+margin-left: 0px;
+
+
+}
+.new{
+background-color: #d30000;
+width: 100%;
+height: 40px;
+border-radius: 2px;
+margin-left: 0px;
+float: left;
+color: white;
+text-decoration-line: line-through;
+
+}
+.taches{
+    background-color: white;
+    width: 700px;
+    display: inline-block;
+    margin-left: 150px;
+}
+.hedd{
+    background-color: #3b3b3b;
+    height: 30px;
+    width: 700px;
+    font-style: oblique;
+    color: white;
+    margin-left: 150px;
+}
+
+.am{
+    margin-left: 200px;
+    border-color: #ffffff9c ;
+    border-radius: 6px;
+    width: 220px;
+    height: 30px;
+    color: #aa9595;
+    background-color:#ffffff9c ;
+    margin-right: 0px;
+}
+.suppe{
+    background-color: #d30000;
+    border-radius: 10px;
+    border-color: #d30000;
+    color: rgb(54, 19, 19);
+    width: 30px;
+    float: right;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    margin-left: 0px;
+}
+.ico{
+    margin: 0px;
+    size: 22px;
+}
+
+.rr{
+    height: 100px;
+}
+ @media (min-width: 360px) {
+body{
+    background-image: url("./bg1.jpg");
+    background-size:1300px 1000px ;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 360px;
+
+}
+.bgg{
+background-color: #ccb3b3a8;
+min-height:100%;
+max-width: 360px;
+
+}
+*{
+margin-right:60px;
+}
+header{
+background-color: #d30000;
+width: 100%;
+text-align:center;
+height: 30px;
+padding-top: 12px;
+color: white;
+position: fixed;
+word-spacing: normal;
+width: 360px;
+
+}
+input[type="button"]{
+    background-color: #d30000;
+    border-radius: 4px;
+    border-color: #d30000;
+    
+    color: white;
+    height: 30px;
+   
+    font-size:10px;
+
+}
+li{
+    list-style: none;
+}
+.nv{
+    background-color: rgba(75, 75, 75, 0);
+    border-color:rgba(75, 75, 75, 0) ;
+    color: rgb(200, 200, 200);
+}
+.nv1{
+    background-color: rgba(75, 75, 75, 0);
+    border-color:rgba(75, 75, 75, 0) ;
+    
+    color: white;
+text-decoration-line: line-through;
+}
+.done{
+    background-color:#3b3b3b;
+    border-radius: 100px;
+    border-color:  #3b3b3b;
+    margin-top: -24px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 19px;
+    padding: 0px;
+    text-align: center;
+}
+
+.normal{
+background-color:  #ffffff00;
+width: 100%;
+height: 55px;
+border-radius: 2px;
+
+float: left;
+
+}
+.new{
+background-color: #d30000;
+width: 100%;
+height: 55px;
+border-radius: 2px;
+
+color: white;
+text-decoration-line: line-through;
+float: left;
+}
+.taches{
+    background-color: white;
+    width:360px;
+    display: inline-block;
+    margin-left: -40px;
+    height: 55px;
+}
+.hedd{
+    background-color: #3b3b3b;
+    height: 30px;
+    width: 360px;
+    font-style: oblique;
+    color: white;
+    margin-left:-40px;
+}
+.ico{
+
+    size: 10px;
+    margin: 0px;
+}
+.am{
+    margin-left: 0px;
+    border-color: #ffffff9c ;
+    border-radius: 6px;
+    width: 200px;
+    height: 20px;
+    color: #bd9999;
+    background-color:#ffffff9c ;
+    margin-right: 0px;
+}
+
+.suppe{
+    background-color: #d30000;
+    border-radius: 10px;
+    border-color: #d30000;
+    color: rgb(54, 19, 19);
+    width: 20px;
+    float: right;
+    height: 20px;
+    padding: 0px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 2px;
+    margin-top: -30px
+}
+
+.rr{
+    height: 100px;
+}  
+} 
